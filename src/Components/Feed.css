@@ -1,0 +1,50 @@
+.feed{
+    width: 65vw;
+    height: 85vh;
+    background-color: #474e68a2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.feedarea{
+    width: 55vw;
+    height: 60vh;
+    background-color: #00005C;
+    padding: 0 auto;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+.commandarea{
+    width: 50vw;
+    height: 10vh;
+    background-color: #16089146;
+    margin: auto;
+    border-radius: 2%;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cmdarea{
+    width: 60vw;
+    height: 8vh;
+    background-color: #ffffff00;
+    font-size: xxx-large;
+    margin: auto;
+    text-align: center;
+    border-width: 0px;
+    color: bisque;
+}
+
+.cmdgo{
+    width: 3vw;
+    height: 8vh;
+    font-size: larger;
+    margin: auto;
+    background-color: #ffffff00;
+    border-width: 0px;
+    color: bisque;
+}
