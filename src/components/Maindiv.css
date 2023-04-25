@@ -1,0 +1,10 @@
+.maindiv{
+    background-color: rgb(216, 15, 15);
+    width: fit-content;
+    height: fit-content;
+}
+.quotediv{
+    width: fit-content;
+    height: fit-content;
+    padding: 20%;
+}

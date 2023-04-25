@@ -1,0 +1,36 @@
+.nxtbtn{
+    font-size: xx-large;
+    font-family: cursive;
+    color: rgba(107, 63, 138, 0.87);
+}
+
+.btndiv{
+    width: 25vw;
+    height: 40vh;
+    margin: 0 auto;
+    padding: auto;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nxtbtn:hover {
+    cursor:grabbing;
+    /* font-size: xxx-large; */
+    animation: fontinc 2s 1;
+    color: rgba(107, 63, 138, 0.863);
+    box-shadow: 0 5px 15px rgba(145 , 92, 182, 0.4);
+    /* -ms-zoom-animation: default; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.icons:hover{
+    font-size: xxx-large;
+}
+
+@keyframes fontinc {
+    /* 0% {font-size : xxx-large;} */
+    /* 50% {font-size : xxx-large} */
+    100% {font-size : xxx-large;}
+}

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.divquote{
+    width: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* animation: imgenl 2s infinite; */
+}
+
+.bgimg{
+    width: 40vw;
+    height: fit-content;
+    position: fixed;
+    z-index: -1;
+    opacity: 80%;
+    /* animation: imgenl 2s infinite; */
+}
+
+.divquote2{
+    background-color: rgba(252, 255, 255, 0.089);
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+    position: absolute;
+}
+
+.todayquote{
+    font-family: cursive;
+}
+
+.todayauth{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+@keyframes imgenl {
+    0% {width: 40vw;}
+    100% { width: 45vw;}
+}

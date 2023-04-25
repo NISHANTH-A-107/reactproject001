@@ -1,0 +1,14 @@
+.sharediv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 7vh;
+    color: rgb(172, 19, 19);
+}
+
+.sharec{
+    display: flex;
+    flex-direction: row;
+    width: 12vw;
+    justify-content: space-around;
+}
